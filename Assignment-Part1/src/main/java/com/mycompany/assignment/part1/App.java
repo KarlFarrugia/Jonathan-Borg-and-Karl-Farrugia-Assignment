@@ -5,17 +5,13 @@
  */
 package com.mycompany.assignment.part1;
 
-import java.util.Date;
-
 /**
  *
  * @author jonathan
  */
-public class User {
-    private String name;
-    private String id;
-    private String address;
-    private Date dob;
-    private String nationality;
-    private String phone;
+public class App {
+    public static void main( String[] args )
+    {
+        System.out.println( "Hello World!" );
+    }
 }
