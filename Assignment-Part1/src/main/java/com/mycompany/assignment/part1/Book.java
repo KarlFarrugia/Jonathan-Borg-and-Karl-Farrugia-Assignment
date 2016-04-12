@@ -77,6 +77,3 @@ public class Book {
         this.loanTo = loanTo;
     }   
 }
-
-
-
