@@ -7,8 +7,10 @@ package com.mycompany.assignmentpart1;
 
 /**
  * Methods to implement:
- * getAllBooke()
- * 
+ * getAllBooks()
+ * searchByTitle(String)
+ * searchByGenre(Genre)
+ * searchByYearOfPublication(int)
  */
 
 
