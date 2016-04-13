@@ -4,6 +4,7 @@
  * and open the template in the editor.
  */
 
+//import Source.Book;
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
@@ -16,7 +17,7 @@ import static org.junit.Assert.*;
  * @author jonathan
  */
 public class AppTest {
-    
+        
     public AppTest() {
     }
     
@@ -26,17 +27,25 @@ public class AppTest {
     
     @AfterClass
     public static void tearDownClass() {
-    }
+    }  
     
+    Book book = new Book();
+
     @Before
-    public void setUp() {
+    
+    public void Calculator() {
+        book.setTitle("Life");
     }
     
     @After
-    public void tearDown() {
+    public void Calculator1() {
+
     }
 
-    
+    @Test
+    public void title_return_0() {
+        assertEquals("Life", book.getTitle());
+    }
     // TODO add test methods here.
     // The methods must be annotated with annotation @Test. For example:
     //
