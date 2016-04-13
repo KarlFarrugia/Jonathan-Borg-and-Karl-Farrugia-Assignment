@@ -4,7 +4,9 @@
  * and open the template in the editor.
  */
 package com.mycompany.assignmentpart1;
+
 import java.util.Date;
+
 /**
  *
  * @author jonathan
